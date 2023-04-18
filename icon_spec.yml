@@ -1,0 +1,18 @@
+icons:
+  icons/spanner.png:
+    layers:
+      - icon: fa.wrench
+        color: 'grey'
+
+  icons/spanner-circle.png:
+    layers:
+      - icon: fa.square
+        color: 'gray'
+
+      - icon: fa.camera
+        scale_factor: 0.4
+
+      - icon: fa.ban
+        color: 'red'
+
+
