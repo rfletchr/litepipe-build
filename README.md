@@ -25,6 +25,14 @@ icons:
 ### Usage
 
 ``` bash
-litepipe-icon icons.yaml --output icons
+litepipe-build icons icons.yaml --output icons
 ```
 
+## Resource Builder
+
+This utility takes a directory of files and uses pyside-rcc to generate a resource file. The intent of this tool is to
+remove the need for pushing resource files into source control, and can be used in tandem with the icon builder.
+
+``` bash
+litepipe-build resources ./dir ./src/my_tools/resources.py
+```
